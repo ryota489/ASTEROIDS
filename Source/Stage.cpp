@@ -498,4 +498,4 @@ void Stage::ShootBullet()
 
 	Bullet* b = new Bullet(pos, v, bcol, r, life);
 	AddObject(b);
-}
+}//

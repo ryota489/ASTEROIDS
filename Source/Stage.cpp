@@ -151,6 +151,8 @@ void Stage::TitleDraw()
 	SetFontThickness(10);
 	DrawString(WIN_WIDTH / 2 - 176, WIN_HEIGHT / 2 - 84, "ASTEROIDS", GetColor(255, 0, 0));
 	DrawString(WIN_WIDTH / 2 - 180, WIN_HEIGHT / 2 - 80, "ASTEROIDS", GetColor(255, 255, 255));
+	SetFontSize(20);
+	DrawString(400, 500, "[ENTER]‚ð‰Ÿ‚µ‚ÄSTART", GetColor(255, 255, 255));
 	SetFontSize(fsize);
 }
 
@@ -194,6 +196,8 @@ void Stage::GameOverDraw()
 	SetFontThickness(10);
 	DrawString(WIN_WIDTH / 2 - 176, WIN_HEIGHT / 2 - 84, "GAME OVER", GetColor(255, 0, 0));
 	DrawString(WIN_WIDTH / 2 - 180, WIN_HEIGHT / 2 - 80, "GAME OVER", color);
+	SetFontSize(20);
+	DrawString(380, 500, "[ENTER]‚ð‰Ÿ‚µ‚ÄTITLE‚É–ß‚é", GetColor(255, 255, 255));
 	SetFontSize(fsize);
 }
 
